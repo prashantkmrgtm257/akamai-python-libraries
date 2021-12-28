@@ -1,0 +1,12 @@
+# akamai-python-libraries
+host_list={"63432":"Akamai Banking Solutions","75501":"Akamai Banking Solutions Legacy","76268":"Akamai Banking Solutions Legacy NonProd","74848":"Akamai Banking Solutions NonProd","32571":"Akamai Bill Pay","75187":"Akamai Bill Pay NonProd","63212":"Akamai Capital Markets","75258":"Akamai Capital Markets NonProd","56930":"Akamai Cloud Services","75400":"Akamai Cloud Services NonProd","62917":"Akamai Corporate Systems","75125":"Akamai Corporate Systems NonProd","38471":"Akamai D1","75337":"Akamai D1 NonProd","29970":"Akamai FIS Global","75402":"Akamai FIS Global NonProd","53394":"Akamai India-Markets","75126":"Akamai India-Markets NonProd","47462":"Akamai Merchant Solutions/Worldpay","75140":"Akamai Merchant Solutions/Worldpay NonProd","37473":"Akamai Mobile","75432":"Akamai Mobile NonProd","67767":"Akamai Prepaid GiftCard","75127":"Akamai Prepaid GiftCard NonProd","70710":"Akamai Prepaid PSCUFS","32855":"Akamai Profiles","77282":"Akamai Profiles NonProd","72355":"Akamai ProNet Services","75128":"Akamai ProNet Services NonProd"}
+dict_data['attackData']['rules']=(base64.b64decode((urllib.parse.unquote(dict_data['attackData']['rules'])).encode('ascii'))).decode('ascii')
+        dict_data['attackData']['ruleVersions']=(base64.b64decode((urllib.parse.unquote(dict_data['attackData']['ruleVersions'])).encode('ascii'))).decode('ascii')
+        dict_data['attackData']['ruleMessages']=(base64.b64decode((urllib.parse.unquote(dict_data['attackData']['ruleMessages'])).encode('ascii'))).decode('ascii')
+        dict_data['attackData']['ruleTags']=(base64.b64decode((urllib.parse.unquote(dict_data['attackData']['ruleTags'])).encode('ascii'))).decode('ascii')
+        dict_data['attackData']['ruleData']=(base64.b64decode((urllib.parse.unquote(dict_data['attackData']['ruleData'])).encode('ascii'))).decode('ascii')
+        dict_data['attackData']['ruleSelectors']=(base64.b64decode((urllib.parse.unquote(dict_data['attackData']['ruleSelectors'])).encode('ascii'))).decode('ascii')
+        dict_data['attackData']['ruleActions']=(base64.b64decode((urllib.parse.unquote(dict_data['attackData']['ruleActions'])).encode('ascii'))).decode('ascii')
+        dict_data['httpMessage']['requestHeaders']=urllib.parse.unquote(dict_data['httpMessage']['requestHeaders'])
+        dict_data['httpMessage']['responseHeaders']=urllib.parse.unquote(dict_data['httpMessage']['responseHeaders'])
+        dict_data['host']=host_list[dict_data['attackData']['configId']]
